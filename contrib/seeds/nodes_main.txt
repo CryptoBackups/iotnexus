@@ -1,0 +1,14 @@
+# Original boot nodes (not yet updated to the latest version)
+#185.181.10.112:10818
+#199.247.20.171:10818
+
+# minpool.net
+192.95.33.131:10818
+
+# Known masternodes
+5.45.120.180
+149.28.33.15
+149.28.103.90
+
+# Backup pool
+217.69.7.31

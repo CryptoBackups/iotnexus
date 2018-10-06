@@ -1,0 +1,26 @@
+[Unit]
+Description=IoTNexus's distributed currency daemon
+After=network.target
+
+[Service]
+User=iotnexus
+Group=iotnexus
+
+Type=forking
+PIDFile=/var/lib/iotnexusd/iotnexusd.pid
+
+ExecStart=/usr/bin/iotnexusd -daemon -pid=/var/lib/iotnexusd/iotnexusd.pid \
+          -conf=/etc/iotnexus/iotnexus.conf -datadir=/var/lib/iotnexusd
+
+ExecStop=-/usr/bin/iotnexus-cli -conf=/etc/iotnexus/iotnexus.conf \
+         -datadir=/var/lib/iotnexusd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

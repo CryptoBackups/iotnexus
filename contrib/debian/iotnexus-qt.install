@@ -1,0 +1,6 @@
+usr/local/bin/iotnexus-qt usr/bin
+share/pixmaps/iotnexus32.xpm usr/share/pixmaps
+share/pixmaps/iotnexus16.xpm usr/share/pixmaps
+share/pixmaps/iotnexus128.png usr/share/pixmaps
+debian/iotnexus-qt.desktop usr/share/applications
+debian/iotnexus-qt.protocol usr/share/kde4/services/

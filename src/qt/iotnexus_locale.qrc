@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/iotnexus_bg.qm</file>
+        <file alias="de">locale/iotnexus_de.qm</file>
+        <file alias="en">locale/iotnexus_en.qm</file>
+        <file alias="es">locale/iotnexus_es.qm</file>
+        <file alias="fi">locale/iotnexus_fi.qm</file>
+        <file alias="fr">locale/iotnexus_fr.qm</file>
+        <file alias="it">locale/iotnexus_it.qm</file>
+        <file alias="ja">locale/iotnexus_ja.qm</file>
+        <file alias="pl">locale/iotnexus_pl.qm</file>
+        <file alias="pt">locale/iotnexus_pt.qm</file>
+        <file alias="ru">locale/iotnexus_ru.qm</file>
+        <file alias="sk">locale/iotnexus_sk.qm</file>
+        <file alias="sv">locale/iotnexus_sv.qm</file>
+        <file alias="vi">locale/iotnexus_vi.qm</file>
+        <file alias="zh_CN">locale/iotnexus_zh_CN.qm</file>
+        <file alias="zh_TW">locale/iotnexus_zh_TW.qm</file>
+    </qresource>
+</RCC>

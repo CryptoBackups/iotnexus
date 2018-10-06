@@ -1,0 +1,26 @@
+# /etc/conf.d/iotnexusd: config file for /etc/init.d/iotnexusd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/iotnexus/iotnexus.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/iotnexusd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/iotnexusd.pid"
+
+# Where to write iotnexusd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/iotnexusd"
+
+# User and group to own iotnexusd process
+#BITCOIND_USER="iotnexus"
+#BITCOIND_GROUP="iotnexus"
+
+# Path to iotnexusd executable
+#BITCOIND_BIN="/usr/bin/iotnexusd"
+
+# Nice value to run iotnexusd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
