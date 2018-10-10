@@ -25,7 +25,7 @@ COIN_CLI="${coin_name}-cli"
 TMP_FOLDER=$(mktemp -d)
 COIN_PATH='/usr/local/bin/'
 KERN_ARCH=$(getconf LONG_BIT)
-COIN_TGZ="https://github.com/IoTNexus/iotnexus/releases/download/v1.1.0.0/iotnexus-1.1.0-linux${KERN_ARCH}.tar.gz"
+COIN_TGZ="https://github.com/IoTNexus/iotnexus/releases/download/v1.1.0.1/iotnexus-1.1.0-linux${KERN_ARCH}.tar.gz"
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 
 NODEIP=$(curl -s4 icanhazip.com)
